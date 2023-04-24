@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    padding-top: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 32pt;
+    padding-bottom: 22px;
+
+}
+
+.title span {
+    background-color: green;
+    padding: 5px 60px 8px 60px;
+}
+
+.Login {
+    grid-area: 1 / 2 / 3 / 5;
+    background-color: lightgray;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+}
+
+.Label {
+    color:#000000;
+}
+
+.information-boxes {
+    align-self: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 20px;
+    font-family: Arial;
+    color: rgb(8, 6, 6);
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.information-boxes thead tr {
+    background-color: green;
+    color: #000000;
+    text-align: left;
+}
+
+.information-boxes th {
+    background-color: green;
+    color: #ffffff;
+    padding: 12px 15px;
+}
+
+.information-boxes td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: rgb(255, 253, 253);
+}
+
+option:not(:first-of-type) {
+    color: black;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    align-items: center;
+    background-color: green;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 50;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    min-height: 1rem;
+    position: relative;
+    transition: all 250ms;
+    touch-action: manipulation;
+    top: 25%;
+    width: 20%;
+}
+
+.button:hover,
+.button:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.button:hover {
+    transform: translateY(-1px);
+}
+
+.button:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+input[type=date], input[type=password],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+  }

@@ -1,0 +1,79 @@
+html {
+  overflow: auto;
+}
+
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  font-family: "Times New Roman";
+  text-align: center;
+  background-color: mediumseagreen;
+  border: 4px solid green;
+  border-style: double;
+}
+
+section h2 {
+  text-align: center;
+}
+
+button {
+  color: gray;
+  border: 3px solid black;
+}
+
+table, th, td {
+  border: 2px solid green;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: center;
+}
+
+button {
+  width: 33%;
+  margin: auto;
+  background-color: dodgerblue;
+  color: darkblue;
+}
+
+section#overview {
+  border: 5px solid green;
+  border-style: double;
+  background-color: lightgoldenrodyellow;
+}
+
+section#OSV {
+  display: none;
+  border: 4px solid green;
+  border-style: double;
+  background-color: lightgoldenrodyellow;
+  padding-bottom: 25px;
+}
+
+section#DSV {
+  display: none;
+  border: 4px solid green;
+  border-style: double;
+  background-color: lightgoldenrodyellow;
+  padding-bottom: 25px;
+}
+
+section#RSV {
+  display: none;
+  border: 4px solid green;
+  border-style: double;
+  background-color: lightgoldenrodyellow;
+  padding-bottom: 25px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: mediumseagreen;
+  border-style: double;
+}

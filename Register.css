@@ -1,0 +1,31 @@
+.Register {
+    background-color: rgba(100, 100, 100, 0.35);
+    min-height: 93.7vh;
+}
+
+.information-boxes .container-title-phy {
+    position: relative;
+    color: #4C2600;
+    text-shadow: 2px 2px 1px rgba(110, 110, 0, 0.5);
+    font-size: 28pt;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    left: 500px;
+}
+
+.information-boxes .container-title-ceo {
+    position: relative;
+    color: #4C2600;
+    text-shadow: 2px 2px 1px rgba(110, 110, 0, 0.5);
+    font-size: 28pt;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    left: -500px;
+}
+
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
